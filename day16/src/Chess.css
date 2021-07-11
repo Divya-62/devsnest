@@ -1,0 +1,23 @@
+.board {
+    margin-left: 200px;
+    width: 300px;
+    border: 20px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    box-shadow: 0 0 15px 5px white,
+               inset 0 0 0 2px white;
+  }
+  
+  .row {
+    display: flex;
+  }
+  .box {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .row:nth-child(odd) > .box:nth-child(odd),
+  .row:nth-child(even) > .box:nth-child(even) {
+    background-color: white;
+  }
