@@ -1,0 +1,40 @@
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    height: 360px;
+    margin-top: -200px;
+    margin-left: -200px;
+
+}
+.square{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    width: 400px;
+    justify-content: center;
+}
+
+.square div{
+   width:60px;
+   height: 60px;
+   border: 1px solid whitesmoke;
+   background-color:lightslategray;
+}
+.square div:hover{
+  background-color:lightseagreen;
+}
+.info{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.seats{
+    width:50px;
+    font-weight: bold;
+}

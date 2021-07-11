@@ -1,0 +1,85 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+.buttons {
+    height: 50px;
+    min-width: 300px;
+    background-color: rgb(22, 122, 223);
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    border: none;
+
+}
+
+.buttons:hover {
+    background-color:rgb(252, 10, 51);
+
+
+}
+h1 {
+    font-size: 70px;
+    color: dodgerblue;
+
+}
+
+.ques {
+    background-color: black;
+    border: none;
+    height: 60px;
+    color: rgb(252, 10, 51);
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quiz {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid rgb(15, 23, 59);
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgb(15, 23, 59) ;
+    margin: 30px;
+}
+
+#res {
+    margin: 0px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: dodgerblue;
+    font-weight: 600;
+}
+
+#play-again,
+#en {
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    color: white;
+  
+    padding: 25px 25px;
+
+}
+
+.result {
+    display: none;
+}
+
+.quizS {
+    display: none;
+}
+
+.enter {
+    margin-top: 100px;
+}
