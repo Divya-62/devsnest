@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+    padding:20px;
+}
+body{
+    background-color: gray;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 1px 1px 2px rgb(30, 109, 255),
+    1px 1px 2px rgb(30, 109, 255) inset;
+    margin-bottom: 10px;
+}
+button{
+    background-color: dodgerblue;
+    border: dodgerblue;
+    border-radius: 10px;
+    width: 500px;
+    font-size: larger;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+.searchuser{
+    border:rgb(30, 109, 255) ;
+    box-shadow: 2px 2px 4px rgb(30, 109, 255),
+    2px 2px 4px rgb(30, 109, 255) inset;
+    border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+    background-color: white;
+}
+h2{
+    font-size: 40px;
+    color:rgb(30, 109, 255) ;
+    /* color: white; */
+}
+#direct{
+    color:rgb(30, 109, 255) ;
+    font-size: 20px;
+    /* color: white; */
+}
