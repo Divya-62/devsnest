@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="day14.css">
+</head>
+<body>
+    <div class="wrapper">
+        <hr><br>
+        <div class="container">
+    <form action="" onsubmit="submitFunc()">
+        <label for="">First Name : </label><input type="text" id="fname" onfocus="focusFunc(this)" onblur="blurFunc(this)" required><br><br>
+        <label for="">Last Name : </label> <input type="text" id="lname" onfocus="focusFunc(this)" onblur="blurFunc(this)" required><br><br>
+        <label for="">Email address : </label><input type="email" id="emailadd" oninput="inputFunc(this)" oninvalid="alert('Enter valid email')"><br><br>        
+        <label for="">Select State : </label>
+        <select name="" id="sel" onchange="changeFunc(this)"><br>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Rajasthan">Rajasthan</option>
+        </select><br><br>
+        <input type="reset" value="reset" onclick="clearFunc()" id="res" class="btn"/>
+        <input type="submit" id="sub"><br><br>
+    </form>
+    </div><hr>
+    </div>
+    <div id="show">Your Response:
+        <p id="result"></p>
+        <p id="result1">
+        </p></div>
+    <script src="day14.js"></script>
+</body>
+</html>

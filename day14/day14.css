@@ -1,0 +1,42 @@
+body
+{
+    margin:0px;
+    background-color:dodgerblue;
+    background-image:url(image/background.jpg);
+    color:#f9fcf5;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.wrapper{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 500px;
+    height: 800px;
+    padding: 20px;
+}
+.container{
+    padding: 20px;
+    margin: 20px;
+}
+#fname,#lname,#sel,#emailadd,#sub,#res{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#fname,#lname,#sel{
+    min-width: 300px;
+}
+#emailadd{
+    min-width:270px ;
+}
+#sub,#res{
+    width: 100px;
+    padding: 5px;
+}
+#show{
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+}
