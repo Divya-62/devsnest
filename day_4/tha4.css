@@ -1,0 +1,87 @@
+body{
+    background: rgb(176, 180, 139);
+}
+.clock {
+    border-radius: 50%;
+    background-size: 88%;
+    background: rgb(230, 233, 63);
+    height: 200px;
+    padding: 40px;
+    margin-top: 70px;
+    position: relative;
+    left: 38%;
+    width: 200px;
+    border: 30px solid greenyellow; 
+    box-shadow:
+    inset 0 0 0 4px white,
+    inset 0 5px 25px rgb(39, 197, 39) ,
+    0  5px 25px yellow ;
+}
+.clock:hover{ background: rgb(53, 53, 49);
+  border: 30px solid rgb(26, 27, 34); 
+  box-shadow:inset 0 0 0 4px white,
+  inset 0 5px 25px rgb(31, 57, 170),
+  0  5px 25px rgb(31, 57, 170) ;
+}
+
+  .clock.simple:after {
+    background:black;
+    border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 5%;
+    height: 5%;
+    z-index: 10;
+  }
+  .minutes-container, .hours-container, .seconds-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .hours {
+    background:red;
+    height: 20%;
+    left: 48.75%;
+    position: absolute;
+    top: 30%;
+    transform-origin: 50% 100%;
+    width: 1.75%;
+  }
+  .minutes {
+    background:black;
+    height: 30%;
+    left: 49%;
+    position: absolute;
+    top: 20%;
+    transform-origin: 50% 100%;
+    width: 1.5%;
+  }
+  .seconds {
+    background:honeydew;
+    height: 35%;
+    left: 49.5%;
+    position: absolute;
+    top: 14%;
+    transform-origin: 50% 80%;
+    width: 1%;
+    z-index: 8;
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+  .hours-container {
+    animation: rotate 43200s infinite linear;
+  }
+  .minutes-container {
+    animation: rotate 3600s infinite linear;
+  }
+  .seconds-container {
+    animation: rotate 60s infinite linear;
+  }  
