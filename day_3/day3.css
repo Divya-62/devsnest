@@ -1,0 +1,34 @@
+*{
+    box-sizing:border-box;
+ }
+ .column{
+    float: left;
+    padding: 10px;
+    height: 800px;
+ 
+ }
+ .outer{
+    border:4px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0px 70px 70px 70px;
+    padding: 50px 70px 50px 70px;
+ }
+ .left{
+    width: 30%;
+    background-color:rgb(147, 160, 173);
+    border-right:5px solid dimgray;
+    color: white;
+ }
+ .right{
+    width: 70%;
+    border:2px solid lightslategray;
+    padding-left: 20px;
+ }
+ .row:after{
+    content: "";
+    display: table;
+    clear: both;
+ }
+ h1{ 
+    text-align: center;
+ }
