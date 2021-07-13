@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.Container{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 280px;
+    height:280px;
+    border: 20px solid black;
+    display: grid;
+    grid-template-columns: repeat(8,0fr);
+    
+}
+.Board{
+    width:280px;
+    height:280px;
+    }
+.cardblack{
+    width: 30px;
+    height:30px;
+    background-color:black;
+}
+.cardwhite{
+    width: 30px;
+    height:30px;
+    background-color:white;
+}
