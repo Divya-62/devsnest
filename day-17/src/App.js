@@ -1,4 +1,5 @@
 import "./App.css";
+import Calorie from "./Calorie";
 
 
 const Item = (props) => {
@@ -19,7 +20,7 @@ const Item = (props) => {
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"><Calorie />
       <div className="container">
             <Item name="Pizza" calorie="56" />
             <Item name="Burger" calorie="69" />

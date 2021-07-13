@@ -14,6 +14,11 @@ body{
     padding: 15px;
     opacity: 0.8;
 }
+.Calorie{
+    color:whitesmoke;
+    margin-left: 30%;
+    font-size: x-large;
+}
 .item{
     height: 100px;
     font-size: 20px;
