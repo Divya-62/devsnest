@@ -1,0 +1,12 @@
+.App{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    width: 150px;
+    height: 60px;
+    background-color:rgb(15, 12, 12);
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 20px;
+}
