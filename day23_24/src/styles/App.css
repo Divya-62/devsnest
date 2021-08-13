@@ -1,0 +1,31 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(10, 9, 26);
+    border:3px solid grey;
+    padding: 10px 5px;
+}
+a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: white;
+}
+a:hover{
+    color: rgb(247, 247, 40);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 1.8rem;
+    background-color: rgb(5, 5, 22);
+    border: none;
+    color: white;
+    border: 2px solid gray;
+}
