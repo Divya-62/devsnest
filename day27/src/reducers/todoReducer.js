@@ -1,6 +1,6 @@
 
 
-const todoReducer =(state =['item1', 'item2', 'item3'],action) => {
+const todoReducer =(state=[],action) => {
     if(action.type === "ADD_ITEM"){
         return [...state,action.payload];
 
