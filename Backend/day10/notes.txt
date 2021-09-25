@@ -1,6 +1,6 @@
 
 
-Deployment
+Deployment :
 
 *  Virtual machines, and AWS EC2
 *  SSH to connect to your VM
